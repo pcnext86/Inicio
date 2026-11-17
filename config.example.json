@@ -1,0 +1,17 @@
+{
+  "provider": "api",
+  "anthropic_api_key": "PUT-YOUR-KEY-HERE",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+
+  "telephony": {
+    "api_key": "PUT-YOUR-KEY-HERE",
+    "from": "+1XXXXXXXXXX",
+    "callback": "+3519XXXXXXXX",
+    "passcode": "PUT-A-6-DIGIT-CODE-HERE",
+    "hotline_token": "UMA-STRING-ALEATORIA-COM-32-OU-MAIS-CARACTERES"
+  },
+  "google": { "client_id": "", "client_secret": "" },
+  "telegram": { "bot_token": "" },
+  "speech": { "provider": "openai", "api_key": "" }
+}
